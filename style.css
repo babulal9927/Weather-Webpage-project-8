@@ -17,13 +17,13 @@ body{
   color: #fff;
   background: #43AFFC;
 }
-.wrapper{
+.container {
   width: 400px;
   background: #fff;
   border-radius: 7px;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
 }
-.wrapper header{
+.container header{
   display: flex;
   font-size: 21px;
   font-weight: 500;
@@ -37,14 +37,14 @@ header i{
   cursor: pointer;
   margin-right: 8px;
 }
-.wrapper.active header i{
+.container.active header i{
   margin-left: 5px;
   font-size: 30px;
 }
-.wrapper .input-part{
+.container .input-part{
   margin: 20px 25px 30px;
 }
-.wrapper.active .input-part{
+.container.active .input-part{
   display: none;
 }
 .input-part .info-txt{
@@ -112,14 +112,14 @@ header i{
 .input-part button:hover{
   background: #1d9ffc;
 }
-.wrapper .weather-part{
+.container .weather-part{
   display: none;
   margin: 30px 0 0;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.wrapper.active .weather-part{
+.container .active .weather-part{
   display: flex;
 }
 .weather-part img{
